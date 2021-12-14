@@ -1,0 +1,13 @@
+body {
+    padding: 2rem 0rem;
+  }
+  
+  .like {
+    font-size: 1.5rem;
+  }
+
+ .quantity-button{
+     background-color: inherit;
+     border: none;
+ }
+  
