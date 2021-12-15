@@ -19,30 +19,41 @@
             
                 <div class="col-12 col-sm-8 col-md-6 col-lg-4">
                     <div class="card border-0">
-                        <div class="card-header bg-white border-0">
-                            <div class="d-flex justify-content-end">
+                        <div class="card-header row bg-white border-0">
+                            
+                            <div class="col-6 d-flex justify-content-start">                            
+                            </div>
+                            <div class="col-6 d-flex justify-content-end">
                                 <a href="#" class="card-link text-danger like">
                                     <i class="fas fa-heart"></i>
                                 </a>
+                                
                             </div>
                         </div>
-                      <img class="card-img" src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/vans.png" alt="Vans">
+                        <div class="image-container">
+                            <img class="card-img" src="img/14.jpg" alt="Vans">
+                            <span>10% off</span>
+                        </div>
+                        <div class="product-property d-flex justify-content-start mx-4">
+                            <span>New</span>
+                            <img src="img/delivery.png" alt="">
+                        </div>
                       <div class="card-body text-center">
                         <h4 class="card-title">Vans Sk8-Hi MTE Shoes</h4>
                         
                         <div class=" d-flex justify-content-between align-items-center">
                           <div class="price">
-                            <h5 class="mt-4"><span style="text-decoration: line-through;opacity: .8;  padding-right: 5px;">KD140</span>
+                            <h5 class="mt-4"><span style="text-decoration: line-through;opacity: .7;  padding-right: 5px;">KD 140</span>
                                 <br>
-                                KD129
+                                KD 129
                             </h5>
                         </div>
-                        <div>
-                            <input type="input" name="quantity" id="quantity" style="width: 40px;height: 40px;margin-top: 3px;" >
-                           <button class="quantity-button">
+                        <div class="mt-4">
+                            <input type="input" value="1" name="quantity" id="quantity"  >
+                           <button class="quantity-button plus-btn">
                                 <img src="img/f.svg"  alt="">
                             </button>
-                           <button class="quantity-button">
+                           <button class="quantity-button minus-btn">
 
                                 <img src="img/minus.png"  alt="">
                             </button>
@@ -50,7 +61,7 @@
                         </div>
                         
                         </div>
-                            <a href="#" class="btn btn-danger w-100 "><i class="fas fa-shopping-cart"></i><strong> Add To Cart</strong> </a>
+                            <a href="#" class="btn add-cart w-100 text-light"><i class="fas fa-shopping-cart"></i><strong> Add To Cart</strong> </a>
 
                       </div>
                   </div>

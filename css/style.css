@@ -11,3 +11,45 @@ body {
      border: none;
  }
   
+.add-cart{
+    background-color: #D70204;
+
+}
+input[name="quantity"]{
+    width: 47px;
+    height: 47px;
+    text-align: center;
+    font-size: 25px;
+}
+.image-container .img{
+    position: relative;
+}
+.image-container span {
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+    display: block;
+    background-color: sandybrown;
+    color: white;
+    width: 57px;
+    height: 57px;
+    border-radius: 34px;
+    padding: 7px;
+    text-align: center;
+}
+    .product-property span {
+        margin: 2px;
+        background-color: whitesmoke;
+        color: #37c12f;
+        display: block;
+        border: 1px solid rgb(209, 200, 200);
+        width: 52px;
+        height: 38px;
+        border-radius: 34px;
+        text-align: center;
+        padding: 3px;
+        font-size: 19px;
+        font-family: ui-serif;
+        font-weight: bold;
+    }
+
